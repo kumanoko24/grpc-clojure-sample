@@ -32,13 +32,13 @@ private static final long serialVersionUID = 0L;
 
   public static final com.google.protobuf.Descriptors.Descriptor
       getDescriptor() {
-    return org.thxnet.core.hello.v0.HelloService.internal_static_thxnet_core_hello_v0_Hello1Request_descriptor;
+    return org.thxnet.core.hello.v0.HelloProto.internal_static_thxnet_core_hello_v0_Hello1Request_descriptor;
   }
 
   @java.lang.Override
   protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internalGetFieldAccessorTable() {
-    return org.thxnet.core.hello.v0.HelloService.internal_static_thxnet_core_hello_v0_Hello1Request_fieldAccessorTable
+    return org.thxnet.core.hello.v0.HelloProto.internal_static_thxnet_core_hello_v0_Hello1Request_fieldAccessorTable
         .ensureFieldAccessorsInitialized(
             org.thxnet.core.hello.v0.Hello1Request.class, org.thxnet.core.hello.v0.Hello1Request.Builder.class);
   }
@@ -310,13 +310,13 @@ private static final long serialVersionUID = 0L;
       org.thxnet.core.hello.v0.Hello1RequestOrBuilder {
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return org.thxnet.core.hello.v0.HelloService.internal_static_thxnet_core_hello_v0_Hello1Request_descriptor;
+      return org.thxnet.core.hello.v0.HelloProto.internal_static_thxnet_core_hello_v0_Hello1Request_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return org.thxnet.core.hello.v0.HelloService.internal_static_thxnet_core_hello_v0_Hello1Request_fieldAccessorTable
+      return org.thxnet.core.hello.v0.HelloProto.internal_static_thxnet_core_hello_v0_Hello1Request_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               org.thxnet.core.hello.v0.Hello1Request.class, org.thxnet.core.hello.v0.Hello1Request.Builder.class);
     }
@@ -343,7 +343,7 @@ private static final long serialVersionUID = 0L;
     @java.lang.Override
     public com.google.protobuf.Descriptors.Descriptor
         getDescriptorForType() {
-      return org.thxnet.core.hello.v0.HelloService.internal_static_thxnet_core_hello_v0_Hello1Request_descriptor;
+      return org.thxnet.core.hello.v0.HelloProto.internal_static_thxnet_core_hello_v0_Hello1Request_descriptor;
     }
 
     @java.lang.Override

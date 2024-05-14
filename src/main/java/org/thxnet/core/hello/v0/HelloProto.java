@@ -4,8 +4,8 @@
 
 package org.thxnet.core.hello.v0;
 
-public final class HelloService {
-  private HelloService() {}
+public final class HelloProto {
+  private HelloProto() {}
   static {
     com.google.protobuf.RuntimeVersion.validateProtobufGencodeVersion(
       com.google.protobuf.RuntimeVersion.RuntimeDomain.PUBLIC,
@@ -13,7 +13,7 @@ public final class HelloService {
       /* minor= */ 26,
       /* patch= */ 1,
       /* suffix= */ "",
-      HelloService.class.getName());
+      HelloProto.class.getName());
   }
   public static void registerAllExtensions(
       com.google.protobuf.ExtensionRegistryLite registry) {
@@ -50,8 +50,8 @@ public final class HelloService {
       "more_message\030\002 \001(\tH\000\210\001\001B\017\n\r_more_message" +
       "2`\n\005Hello\022W\n\nMyHelloOne\022#.thxnet.core.he" +
       "llo.v0.Hello1Request\032$.thxnet.core.hello" +
-      ".v0.Hello1ResposneB,\n\030org.thxnet.core.he" +
-      "llo.v0B\014HelloServiceH\001P\001b\006proto3"
+      ".v0.Hello1ResposneB*\n\030org.thxnet.core.he" +
+      "llo.v0B\nHelloProtoH\001P\001b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

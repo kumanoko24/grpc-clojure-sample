@@ -244,7 +244,7 @@ public final class HelloGrpc {
 
     @java.lang.Override
     public com.google.protobuf.Descriptors.FileDescriptor getFileDescriptor() {
-      return org.thxnet.core.hello.v0.HelloService.getDescriptor();
+      return org.thxnet.core.hello.v0.HelloProto.getDescriptor();
     }
 
     @java.lang.Override
