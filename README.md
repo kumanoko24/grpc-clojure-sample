@@ -12,6 +12,12 @@ FIXME: explanation
 
     $ java -jar grpc-test-0.1.0-standalone.jar [args]
 
+```bash
+protoc --java_out=./src/main/java ./src/main/proto/service.proto
+
+protoc --grpc-java_out=./src/main/java --plugin=protoc-gen-grpc-java=$(which protoc-gen-grpc-java) ./src/main/proto/service.proto
+```
+
 ## Options
 
 FIXME: listing of options this app accepts.
@@ -25,7 +31,9 @@ FIXME: listing of options this app accepts.
 ...
 
 ### Any Other Sections
+
 ### That You Think
+
 ### Might be Useful
 
 ## License

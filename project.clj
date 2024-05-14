@@ -3,7 +3,8 @@
                  [io.grpc/grpc-netty-shaded "1.63.0"]
                  [io.grpc/grpc-protobuf "1.63.0"]
                  [io.grpc/grpc-stub "1.63.0"]
-                 [com.google.protobuf/protobuf-java "4.26.1"]]
+                 [com.google.protobuf/protobuf-java "4.26.1"]
+                 [javax.annotation/javax.annotation-api "1.3.2"]]
   :main ^:skip-aot grpc-test.core
   :target-path "target/%s"
   :source-paths ["src/main/clojure"]
