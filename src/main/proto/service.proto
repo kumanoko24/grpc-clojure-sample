@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+// clang-format off
+package thxnet.core.hello.v0;
+// clang-format on
+
+option optimize_for = SPEED;
+
+option java_multiple_files = true;
+option java_package = "org.thxnet.core.hello.v0";
+option java_outer_classname = "HelloService";
+
+service Hello {
+  rpc MyHelloOne(Hello1Request) returns (Hello1Resposne);
+}
+
+message Hello1Request {
+  string name = 1;
+  optional string nick_name = 2;
+}
+
+message Hello1Resposne {
+  string message = 1;
+  optional string more_message = 2;
+}
